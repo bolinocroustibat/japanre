@@ -9,7 +9,7 @@ import { InfosHu } from "./components/panels/InfosHu";
 import { InfosNl } from "./components/panels/InfosNl";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
-import { Worldle } from "./components/Worldle";
+import { Japanre } from "./components/Japanre";
 import { Stats } from "./components/panels/Stats";
 import { Twemoji } from "@teuteuf/react-emoji-render";
 import { getDayString, useTodays } from "./hooks/useTodays";
@@ -92,7 +92,7 @@ export default function App() {
               <Twemoji text="❓" />
             </button>
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              Wor<span className="text-green-600">l</span>dle
+              Japanre
             </h1>
             <button
               className="ml-3 text-xl"
@@ -115,7 +115,7 @@ export default function App() {
               text="❤️"
               className="flex items-center justify-center mr-1"
             />{" "}
-            <Worldle />? -
+            <Japanre />? -
             {country && supportLink[country.code] != null ? (
               <a
                 className="underline pl-1"

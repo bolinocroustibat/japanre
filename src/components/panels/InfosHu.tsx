@@ -1,7 +1,7 @@
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
 import React from "react";
-import { Worldle } from "../Worldle";
+import { Japanre } from "../Japanre";
 import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
 import { Twemoji } from "@teuteuf/react-emoji-render";
@@ -18,7 +18,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
           {" "}
-          Találd ki a napi <Worldle />
+          Találd ki a napi <Japanre />
           -t 6 próbálkozásból.
         </div>
         <div>
@@ -91,7 +91,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        Minden nap új <Worldle /> érhető el!
+        Minden nap új <Japanre /> érhető el!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Kérdésed, vagy javaslatod van?</div>
@@ -107,7 +107,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle />
+        <Japanre />
         -höz <span className="font-bold">jelentős</span> inspirációt adott a{" "}
         <a
           className="underline"

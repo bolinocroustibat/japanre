@@ -36,9 +36,9 @@ export const translations = {
         guessDistribution: "Guess distribution:",
       },
       install: {
-        title: "Worldle",
+        title: "Japanre",
         descritpionTitle: "App Install:",
-        description: "Add Worldle to Home Screen to play it easily!",
+        description: "Add Japanre to Home Screen to play it easily!",
         instructionTitle: "Instructions:",
         instructionActionOk: "OK",
         instructionActionCancel: "Cancel",
@@ -100,10 +100,10 @@ export const translations = {
         guessDistribution: "Répartitions des victoires:",
       },
       install: {
-        title: "Worldle",
+        title: "Japanre",
         descritpionTitle: "Installer l'app:",
         description:
-          "Ajouter Worldle sur l'écran d'accueil pour le retrouver plus facilement !",
+          "Ajouter Japanre sur l'écran d'accueil pour le retrouver plus facilement !",
         instructionTitle: "Instructions :",
         instructionActionOk: "OK",
         instructionActionCancel: "Annuler",
@@ -225,10 +225,10 @@ export const translations = {
         guessDistribution: "Találatok eloszlása:",
       },
       install: {
-        title: "Worldle",
+        title: "Japanre",
         descritpionTitle: "App Letöltése:",
         description:
-          "Add hozzá a Worldle a Kezdőképernyőhöz, hogy egyszerűbben játszhass!",
+          "Add hozzá a Japanre a Kezdőképernyőhöz, hogy egyszerűbben játszhass!",
         instructionTitle: "In",
         instructionActionOk: "OK",
         instructionActionCancel: "Mégse",
@@ -281,10 +281,10 @@ export const translations = {
         guessDistribution: "Kansverspreiding:",
       },
       install: {
-        title: "Worldle",
+        title: "Japanre",
         descritpionTitle: "Appinstallatie:",
         description:
-          "Voeg Worldle toe aan je beginscherm om het makkelijk te spelen!",
+          "Voeg Japanre toe aan je beginscherm om het makkelijk te spelen!",
         instructionTitle: "Instructies:",
         instructionActionOk: "OK",
         instructionActionCancel: "Annuleer",

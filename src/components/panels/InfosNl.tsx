@@ -1,7 +1,7 @@
 import { Guesses } from "../Guesses";
 import { Panel } from "./Panel";
 import React from "react";
-import { Worldle } from "../Worldle";
+import { Japanre } from "../Japanre";
 import { formatDistance } from "../../domain/geography";
 import { SettingsData } from "../../hooks/useSettings";
 import { Twemoji } from "@teuteuf/react-emoji-render";
@@ -17,7 +17,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
     <Panel title="Spelinstructies" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Je hebt 6 kansen om de <Worldle /> te raden.
+          Je hebt 6 kansen om de <Japanre /> te raden.
         </div>
         <div>Iedere gok moet een geldig land, gebied, enzovoort zijn.</div>
         <div>
@@ -85,7 +85,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        Er is iedere dag een nieuwe <Worldle /> beschikbaar!
+        Er is iedere dag een nieuwe <Japanre /> beschikbaar!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div className="font-bold">Vragen of suggesties?</div>
@@ -103,7 +103,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Worldle /> is <span className="font-bold">sterk</span> geïnspireerd
+        <Japanre /> is <span className="font-bold">sterk</span> geïnspireerd
         door{" "}
         <a
           className="underline"
