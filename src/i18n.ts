@@ -5,13 +5,13 @@ import { initReactI18next } from "react-i18next";
 export const translations = {
   en: {
     translation: {
-      placeholder: "Country, territory...",
+      placeholder: "Prefecture...",
       guess: "Guess",
       share: "Share",
       showOnGoogleMaps: "👀 on Google Maps",
       showOnWikipedia: "📚 on Wikipedia",
       welldone: "Well done!",
-      unknownCountry: "Unknown country!",
+      unknownCountry: "Unknown prefecture!",
       copy: "Copied results to clipboard",
       showCountry: "🗺️ Show map!",
       cancelRotation: "🌀 Cancel rotation",
@@ -22,8 +22,8 @@ export const translations = {
         language: "Language",
         difficultyModifiers: "Difficulty modifiers",
         startingNextDay: "Starting the next day!",
-        noImageMode: "Hide country image for more of a challenge.",
-        rotationMode: "Randomly rotate country image.",
+        noImageMode: "Hide prefecture image for more of a challenge.",
+        rotationMode: "Randomly rotate prefecture image.",
         updateNotificationDisabled: "Disable update notifications.",
       },
       stats: {
@@ -68,7 +68,7 @@ export const translations = {
   },
   fr: {
     translation: {
-      placeholder: "Pays, territoires...",
+      placeholder: "Prefecture...",
       guess: "Deviner",
       share: "Partager",
       showOnGoogleMaps: "👀 sur Google Maps",
@@ -85,8 +85,8 @@ export const translations = {
         language: "Langage",
         difficultyModifiers: "Modificateurs de difficulté",
         startingNextDay: "A partir du lendemain !",
-        noImageMode: "Cache l'image du pays pour plus de challenge.",
-        rotationMode: "Tourne l'image du pays de manière aléatoire.",
+        noImageMode: "Cache l'image de la prefecture pour plus de challenge.",
+        rotationMode: "Tourne l'image de la prefecture de manière aléatoire.",
         updateNotificationDisabled:
           "Désactive les notification de mise à jour.",
       },
