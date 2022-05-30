@@ -5,8 +5,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Infos } from "./components/panels/Infos";
 import { useTranslation } from "react-i18next";
 import { InfosFr } from "./components/panels/InfosFr";
-import { InfosHu } from "./components/panels/InfosHu";
-import { InfosNl } from "./components/panels/InfosNl";
 import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
 import { Japanre } from "./components/Japanre";
@@ -42,12 +40,6 @@ export default function App() {
   switch (i18n.resolvedLanguage) {
     case "fr":
       InfosComponent = InfosFr;
-      break;
-    case "hu":
-      InfosComponent = InfosHu;
-      break;
-    case "nl":
-      InfosComponent = InfosNl;
       break;
     default:
       InfosComponent = Infos;
