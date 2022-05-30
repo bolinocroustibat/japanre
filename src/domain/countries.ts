@@ -21,7 +21,7 @@ export const countriesWithImage = countries.filter((c) =>
   countryCodesWithImage.includes(c.code.toLowerCase())
 );
 
-export const smallCountryLimit = 5000;
+export const smallCountryLimit = 1500;
 export const bigEnoughCountriesWithImage = countriesWithImage.filter(
   (country) => areas[country.code] > smallCountryLimit
 );
