@@ -104,10 +104,8 @@ function getCountry(dayString: string) {
       pickedCountry = countrySelection[countryIndex];
 
       if (currentDayDate >= noRepeatStartDate) {
-        while (isARepeat(pickedCountry, lastPickDates, currentDayDate)) {
-          countryIndex = (countryIndex + 1) % countrySelection.length;
-          pickedCountry = countrySelection[countryIndex];
-        }
+        countryIndex = (countryIndex + 1) % countrySelection.length;
+        pickedCountry = countrySelection[countryIndex];
       }
     }
 
