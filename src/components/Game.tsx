@@ -209,9 +209,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             <div className="flex flex-wrap gap-4 justify-center">
               <a
                 className="underline text-center block mt-4 whitespace-nowrap"
-                href={`https://www.google.com/maps?q=Japan+${countryName}&hl=${
-                  i18n.resolvedLanguage
-                }`}
+                href={`https://www.google.com/maps?q=Japan+${countryName}&hl=${i18n.resolvedLanguage}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

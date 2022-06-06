@@ -18,9 +18,12 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
           {" "}
-          Devine le <Japanre /> en 6 essais.
+          Devinez le <Japanre /> en 6 essais.
         </div>
-        <div>Chaque essai doit être une préfecture valide du Japon parmi les 47 préfectures officielles du Japon.</div>
+        <div>
+          Chaque essai doit être une préfecture japonaise valide parmi les 47
+          préfectures officielles du Japon.
+        </div>
         <div>
           Après chaque essai, vous aurez la distance, la direction et la
           proximité entre votre essai et la préfecture cible.
@@ -42,10 +45,10 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Votre essai <span className="uppercase font-bold">Oita</span> est à{" "}
-            {formatDistance(13_557_000, settingsData.distanceUnit)} de la préfecture
-            cible, la préfecture cible se trouve dans la direction Nord-Est et vous
-            avez une proximité de seulement 32% car votre essai est plutôt
-            éloigné !
+            {formatDistance(13_557_000, settingsData.distanceUnit)} de la
+            préfecture cible, la préfecture cible se trouve dans la direction
+            nord-est et vous avez une proximité de seulement 32% car votre essai
+            est plutôt éloigné !
           </div>
         </div>
         <div>
@@ -64,8 +67,8 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             Votre second essai{" "}
             <span className="uppercase font-bold">Fukushima</span> est plus
             proche ! La bonne réponse est à{" "}
-            {formatDistance(3_206_000, settingsData.distanceUnit)}, au Sud
-            et la proximité est de 84%!
+            {formatDistance(3_206_000, settingsData.distanceUnit)} au sud et la
+            proximité est de 84%!
           </div>
         </div>
         <div>
@@ -91,21 +94,6 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
         Un nouveau <Japanre /> sera disponible chaque jour !
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">Une question ou suggestion ?</div>
-        <div>
-          Rendez-vous sur la{" "}
-          <a
-            className="underline"
-            href="https://worldle.notion.site/Worldle-4005ca16fc9341e7be8adcfd30628146"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            FAQ Japanre
-          </a>{" "}
-          !
-        </div>
-      </div>
-      <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <Japanre /> a été <span className="font-bold">très</span> inspiré par{" "}
         <a
           className="underline"
@@ -115,7 +103,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
         >
           Worldle
         </a>{" "}
-        created by{" "}
+        créé par{" "}
         <a
           className="underline"
           href="https://twitter.com/teuteuf"
@@ -123,7 +111,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           teufteuf (@teuteuf)
-        </a>
+        </a>{" "}
         et par{" "}
         <a
           className="underline"

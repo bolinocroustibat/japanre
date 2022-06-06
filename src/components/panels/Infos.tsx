@@ -19,7 +19,10 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         <div>
           Guess the <Japanre /> in 6 guesses.
         </div>
-        <div>Each guess must be a valid prefecture of Japan among the 47 officla Japanese prefectures.</div>
+        <div>
+          Each guess must be a valid prefecture of Japan among the 47 official
+          Japanese prefectures.
+        </div>
         <div>
           After each guess, you will have the distance, the direction and the
           proximity from your guess and the target prefecture.
@@ -42,9 +45,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Your guess <span className="uppercase font-bold">Oita</span> is{" "}
             {formatDistance(13557000, settingsData.distanceUnit)} away from the
-            target prefecture, the target prefecture is in the North-East direction
-            and you have a only 32% of proximity because it&apos;s quite far
-            away!
+            target prefecture, the target prefecture is in the North-East
+            direction and you have a only 32% of proximitybecause it&apos;s
+            quite far away!
           </div>
         </div>
         <div>
@@ -89,21 +92,6 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         A new <Japanre /> will be available every day!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">Any question or suggestion?</div>
-        <div>
-          Check the{" "}
-          <a
-            className="underline"
-            href="https://worldle.notion.site/Worldle-b84ab0f002e34866980a4d47cf9291b7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Japanre FAQ
-          </a>
-          !
-        </div>
-      </div>
-      <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <Japanre /> has been <span className="font-bold">heavily</span> inspired
         by{" "}
         <a
@@ -122,8 +110,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           teufteuf (@teuteuf)
-        </a>
-        and by{" "}.
+        </a>{" "}
+        and by{" "}
         <a
           className="underline"
           href="https://www.powerlanguage.co.uk/wordle/"
