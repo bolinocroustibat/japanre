@@ -5,6 +5,7 @@
 
 import { areas } from "./countries.area";
 import { countries } from "./countries.position";
+import { japaneseCountryNames } from "./countries.name.jp";
 import { frenchCountryNames } from "./countries.name.fr";
 import { countryCodesWithImage } from "./countries.image";
 
@@ -26,6 +27,8 @@ export const bigEnoughCountriesWithImage = countriesWithImage.filter(
 
 export function getCountryName(language: string, country: Country) {
   switch (language) {
+    case "jp":
+      return japaneseCountryNames[country.code];
     case "fr":
       return frenchCountryNames[country.code];
     default:
