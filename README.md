@@ -2,10 +2,9 @@
 
 Play this geographical Japan wordle here: [https://japanre.adriencarpentier.com](https://japanre.adriencarpentier.com)!
 
-Heavily adapted from [Worldle](https://worldle.teuteuf.fr/) by [teuteuf](https://github.com/teuteuf/).
+Heavily adapted from [Worldle](https://worldle.teuteuf.fr/) by [teuteuf](https://github.com/teuteuf/), which was heavily inspired by [Wordle](https://wordle.net/) by Josh Wardle.
 
-
-## To deploy on production with nginx
+## To deploy on production with nginx
 
 Following https://create-react-app.dev/docs/deployment/
 
@@ -15,6 +14,7 @@ Test with:
 Then test on `http://server_ip:3000`.
 
 Example nginx vhost:
+
 ```nginx
  server {
      server_name japanre.adriencarpentier.com;
@@ -31,3 +31,4 @@ Example nginx vhost:
 
 - Prefectures with long/lat => https://www.kaggle.com/datasets/corochann/japan-prefecture-latitude-longitude
 - Emojis & World icon => https://github.com/twitter/twemoji
+- Images of prefectures => https://commons.wikimedia.org/

@@ -107,31 +107,20 @@ export default function App() {
               text="❤️"
               className="flex items-center justify-center mr-1"
             />{" "}
-            <Japanre />? -
-            {country && supportLink[country.code] != null ? (
-              <a
-                className="underline pl-1"
-                href={supportLink[country.code]}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">{t(`support.${country.code}`)}</div>
-              </a>
-            ) : (
-              <a
-                className="underline pl-1"
-                href="https://www.ko-fi.com/teuteuf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-max">
-                  <Twemoji
-                    text={t("buyMeACoffee")}
-                    options={{ className: "inline-block" }}
-                  />
-                </div>
-              </a>
-            )}
+            <Japanre />? - {t("adaptedFrom")}{" "}
+            <a
+              className="underline pl-1"
+              href="https://worldle.teuteuf.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-max">
+                <Twemoji
+                  text="Worldle"
+                  options={{ className: "inline-block" }}
+                />
+              </div>
+            </a>
           </footer>
         </div>
       </div>

@@ -92,8 +92,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         A new <Japanre /> will be available every day!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Japanre /> has been <span className="font-bold">heavily</span> inspired
-        by{" "}
+        <Japanre /> has been adapted from{" "}
         <a
           className="underline"
           href="https://worldle.teuteuf.fr/"
@@ -111,7 +110,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         >
           teufteuf (@teuteuf)
         </a>{" "}
-        and by{" "}
+        which is itself heavily inspired by{" "}
         <a
           className="underline"
           href="https://www.powerlanguage.co.uk/wordle/"

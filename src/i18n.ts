@@ -60,7 +60,7 @@ export const translations = {
       update: "Update",
       or: "or",
       ignore: "Ignore",
-      buyMeACoffee: "Buy teuteuf a ☕!",
+      adaptedFrom: "Adapted from",
       news: {
         newsNotifications: "News notifications system added!",
       },
@@ -125,7 +125,7 @@ export const translations = {
       update: "Mettre à jour",
       or: "ou",
       ignore: "Ignorer",
-      buyMeACoffee: "Offrez un ☕ à teufteuf !",
+      adaptedFrom: "Adapté de",
       news: {},
     },
   },

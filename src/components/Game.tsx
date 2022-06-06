@@ -152,11 +152,11 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           </button>
         )}
         <img
-          className={`pointer-events-none max-h-52 m-auto transition-transform duration-700 ease-in dark:invert ${
+          className={`pointer-events-none max-h-52 m-auto transition-transform duration-700 ease-in ${
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="country to guess"
-          src={`images/countries/${country?.code.toLowerCase()}/vector.svg`}
+          src={`images/prefectures/${country?.code.toLowerCase()}/vector.svg`}
           style={
             rotationMode && !gameEnded
               ? {
