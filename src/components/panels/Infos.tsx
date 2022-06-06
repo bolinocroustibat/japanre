@@ -64,9 +64,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Your second guess <span className="uppercase font-bold">Kyoto</span>{" "}
-            is getting closer!{" "}
-            {formatDistance(38000, settingsData.distanceUnit)} away, South
-            direction and 98%.
+            is getting closer! It&apos;s{" "}
+            {formatDistance(38000, settingsData.distanceUnit)} away in the South
+            direction, 98% close.
           </div>
         </div>
         <div>
@@ -108,7 +108,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          teufteuf (@teuteuf)
+          teuteuf (@teuteuf)
         </a>{" "}
         which is itself heavily inspired by{" "}
         <a

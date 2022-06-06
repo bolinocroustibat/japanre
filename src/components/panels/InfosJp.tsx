@@ -108,7 +108,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          teufteuf (@teuteuf)
+          teuteuf (@teuteuf)
         </a>{" "}
         which is itself heavily inspired by{" "}
         <a

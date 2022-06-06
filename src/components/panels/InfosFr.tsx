@@ -44,7 +44,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Votre essai <span className="uppercase font-bold">Fukushima</span>
+            Votre essai <span className="uppercase font-bold">Fukushima</span>{" "}
             est à {formatDistance(538_000, settingsData.distanceUnit)} de la
             préfecture cible, la préfecture cible se trouve dans la direction
             nord-est et vous avez une proximité de seulement 78% car votre essai
@@ -66,9 +66,9 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             Votre second essai{" "}
             <span className="uppercase font-bold">Fukushima</span> est plus
-            proche ! La bonne réponse est à{" "}
+            proche. La bonne réponse est à{" "}
             {formatDistance(38_000, settingsData.distanceUnit)} au sud et la
-            proximité est de 98%!
+            proximité est de 98%.
           </div>
         </div>
         <div>
@@ -76,7 +76,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chiba",
+                name: "Nara",
                 direction: "N",
                 distance: 0,
               },
@@ -84,7 +84,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Prochain essai, <span className="uppercase font-bold">Chiba</span>,
+            Prochain essai, <span className="uppercase font-bold">Nara</span>,
             c&apos;est la préfecture à deviner ! Bien joué !{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
@@ -110,7 +110,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          teufteuf (@teuteuf)
+          teuteuf (@teuteuf)
         </a>{" "}
         , lui-même très inspiré de{" "}
         <a
@@ -163,7 +163,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             rel="noopener noreferrer"
           >
             <Twemoji
-              text="Offrez un café à teufteuf ! ☕"
+              text="Offrez un café à teuteuf ! ☕"
               options={{ className: "inline-block" }}
             />
           </a>
