@@ -35,38 +35,19 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Oita",
-                direction: "NE",
-                distance: 13_557_000,
-              },
-            ]}
-            settingsData={settingsData}
-          />
-          <div className="my-2">
-            Your guess <span className="uppercase font-bold">Oita</span> is{" "}
-            {formatDistance(13557000, settingsData.distanceUnit)} away from the
-            target prefecture, the target prefecture is in the North-East
-            direction and you have a only 32% of proximitybecause it&apos;s
-            quite far away!
-          </div>
-        </div>
-        <div>
-          <Guesses
-            rowCount={1}
-            guesses={[
-              {
                 name: "Fukushima",
-                direction: "S",
-                distance: 3_206_000,
+                direction: "SW",
+                distance: 538_000,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess{" "}
-            <span className="uppercase font-bold">Fukushima</span> is getting
-            closer! {formatDistance(3206000, settingsData.distanceUnit)} away,
-            South direction and 84%!
+            Your guess <span className="uppercase font-bold">Fukushima</span> is{" "}
+            {formatDistance(538000, settingsData.distanceUnit)} away from the
+            target prefecture, the target prefecture is in the South-West
+            direction and you have only 76% of proximity because it&apos;s quite
+            far away.
           </div>
         </div>
         <div>
@@ -74,7 +55,26 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chiba",
+                name: "Kyoto",
+                direction: "S",
+                distance: 38_000,
+              },
+            ]}
+            settingsData={settingsData}
+          />
+          <div className="my-2">
+            Your second guess <span className="uppercase font-bold">Kyoto</span>{" "}
+            is getting closer!{" "}
+            {formatDistance(38000, settingsData.distanceUnit)} away, South
+            direction and 98%.
+          </div>
+        </div>
+        <div>
+          <Guesses
+            rowCount={1}
+            guesses={[
+              {
+                name: "Nara",
                 direction: "N",
                 distance: 0,
               },
@@ -82,7 +82,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Chiba</span>,
+            Next guess, <span className="uppercase font-bold">Nara</span>,
             it&apos;s the prefecture to guess! Congrats!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>

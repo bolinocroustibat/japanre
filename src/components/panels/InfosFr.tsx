@@ -36,19 +36,19 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Oita",
-                direction: "NE",
-                distance: 13_557_000,
+                name: "Fukushima",
+                direction: "SW",
+                distance: 538_000,
               },
             ]}
             settingsData={settingsData}
           />
           <div className="my-2">
-            Votre essai <span className="uppercase font-bold">Oita</span> est à{" "}
-            {formatDistance(13_557_000, settingsData.distanceUnit)} de la
+            Votre essai <span className="uppercase font-bold">Fukushima</span>
+            est à {formatDistance(538_000, settingsData.distanceUnit)} de la
             préfecture cible, la préfecture cible se trouve dans la direction
-            nord-est et vous avez une proximité de seulement 32% car votre essai
-            est plutôt éloigné !
+            nord-est et vous avez une proximité de seulement 78% car votre essai
+            est plutôt éloigné.
           </div>
         </div>
         <div>
@@ -56,9 +56,9 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Fukushima",
+                name: "Kyoto",
                 direction: "S",
-                distance: 3_206_000,
+                distance: 38_000,
               },
             ]}
             settingsData={settingsData}
@@ -67,8 +67,8 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             Votre second essai{" "}
             <span className="uppercase font-bold">Fukushima</span> est plus
             proche ! La bonne réponse est à{" "}
-            {formatDistance(3_206_000, settingsData.distanceUnit)} au sud et la
-            proximité est de 84%!
+            {formatDistance(38_000, settingsData.distanceUnit)} au sud et la
+            proximité est de 98%!
           </div>
         </div>
         <div>
