@@ -10,17 +10,17 @@
 <title  id="title4">東京都行政区画地図</title>
 <g id="g6" transform="translate(1,0)">
 	<rect id="rect68" x="-10" y="-10" fill="#FFFFFF" width="820" height="440"/>
-	<rect id="rect70" y="0" fill="#EEEEEE" width="800" height="420"/>
+	<rect id="rect70" y="0" fill="#eeeeee" width="800" height="420"/>
 	<g id="g72">
 		<a id="a74" xlink:href="http://ja.wikipedia.org/wiki/茨城県" >
 			<g id="use76">
-				<path id="_x30_8000" inkscape:connector-curvature="0" fill="#EEEEEE" d="M0,0"/>
+				<path id="_x30_8000" inkscape:connector-curvature="0" fill="#eeeeee" d="M0,0"/>
 			</g>
 		</a>
 		<a id="a78" xlink:href="http://ja.wikipedia.org/wiki/埼玉県" >
 			<g id="use80">
 				
-					<path id="_x31_1000" inkscape:connector-curvature="0" fill="#CCCCCC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_1000" inkscape:connector-curvature="0" fill="#aaaaaa" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M-4-4v66l7-7l12,4l4-2l9-4l-1-5l2-7l17-11l9-5l5,4l12-3l7-12l6-2l33,24l8,2l8-3l14,7l36,4l9,6l3,6h1l18,8l11,1l3-5h4l15,9l6-4
 					l2,4l14,1l12-3l4-1l3,4l4-2l3,3h6l2,12l8-3v6v4l6,17l5,3l13-3l3,3l15,2l-2,5l4,6l-2,1l5-1l3,5l-1,3l-1,1l1,2l4,3l5-2v3l10-5
 					l12,3l14-4l2,3l25-8l7-5l5,1l5-2l1,3l13-9l6-1l15-17l4,4l-7,11l5,3l-1,8l-16,7l-4,6l23-8l-2,18l9-3l5-3l6-2v-2l9-5l5-7h4h2v1
@@ -31,7 +31,7 @@
 		<a id="a82" xlink:href="http://ja.wikipedia.org/wiki/千葉県" >
 			<g id="use84">
 				
-					<path id="_x31_2000" inkscape:connector-curvature="0" fill="#CCCCCC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_2000" inkscape:connector-curvature="0" fill="#aaaaaa" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M737-4l2,4l12,18l7,24l-8,35l2,11l-2,22l4,11v4l-9,6l-2,4l8,16l1,1l8,8l-3,13l3,6l12,13l2,9l-9,13l-16,5l-1,6l1,1l1,15l-3,10
 					l-8,5l3,1l-4,5l1,8l12,3l3-4l4,9l32-23l-17-14h1l9-10l13-3l-2-3l-12,3l3-6l2,2l8-7l5,9l4-4V-4H737z"/>
 			</g>
@@ -39,7 +39,7 @@
 		<a id="a86" xlink:href="http://ja.wikipedia.org/wiki/神奈川県" >
 			<g id="use88">
 				
-					<path id="_x31_4000" inkscape:connector-curvature="0" fill="#CCCCCC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_4000" inkscape:connector-curvature="0" fill="#aaaaaa" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M560,424v-1l-5-1l1-1h3v-4l2,2v-4l-4-1l7-9l4-2l-1,1l4,6h5h7l-1-6h5l-4,3l3,5l-4,1v6l11-5v-4l8-4l-4-9l1-4l1,6l2-4l2,3l2-1l-2,3
 					l2,6l12,16l9-5l13-7l-5-10l3-2l-3-4l8,8l10-5v-4l2,3l10-6l3-1v-5l-9-2l-2-5l7-4l2,6l3-3l8,5l6-14l-31-20l-14-1l-5,4l-5-3l-7,5
 					l-11,2l-4-7l4-8l-17-9l-11-24l-9-3l-9-7l-19-15l-17-4h-5l-13-5l-8-8l-11-4l-17-6l-4,5l2,5l-5,2l-2,5l-2,1l-13,6l4,11l-8,1l-10-8
@@ -54,7 +54,7 @@
 		<a id="a90" xlink:href="http://ja.wikipedia.org/wiki/山梨県" >
 			<g id="use92">
 				
-					<path id="_x31_9000" inkscape:connector-curvature="0" fill="#CCCCCC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_9000" inkscape:connector-curvature="0" fill="#aaaaaa" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M39,424v-1l10-4l4,3l8-9l15-1l5-5h5l5-1v-4l12-13l2-10h15l8-1l7-1l12-12l10-13l-1-11l13-13v-5l-1-11l-5-6l6-7l2-8l1-5l-4-4l5-3
 					l-8-8l3-16l-8-11l1-3l5-8l5-7l-19-17h-11l-7-4l-9-2l-34-21l-10-17l-1-2l-1-2l-4-9l-10-5l-7-13l2-12l-8-9l-4-15V76l-6,1l-7-6
 					l-4-7l1-6l-4-5l-9,4l-4,2L3,55l-7,7v362H39z"/>
@@ -63,21 +63,21 @@
 		<a id="a94" xlink:href="http://ja.wikipedia.org/wiki/千代田区" >
 			<g id="use96">
 				
-					<path id="_x31_3101" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3101" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M636,223l7,5l8,1l9-12l-2-6l11-8l-9-8l-2,5l-17-3l-11,13v7L636,223z"/>
 			</g>
 		</a>
 		<a id="a98" xlink:href="http://ja.wikipedia.org/wiki/中央区" >
 			<g id="use100">
 				
-					<path id="_x31_3102" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3102" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M656,245l7,7l12-10l-2-18l4-10l-2-4l-1-4v-1l-5-2l-11,8l2,6l-9,12l3,3l-2,6l5,4L656,245z"/>
 			</g>
 		</a>
 		<a id="a102" xlink:href="http://ja.wikipedia.org/wiki/港区" >
 			<g id="use104">
 				
-					<path id="_x31_3103" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3103" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M614,232l2,7l8,2v9l-3,5l-1,6h6l3,3l4,8l17-1l2-3v-6l-5-1l1-4l5,2l-1-8l1-6h3l1-3l-5-4l2-6l-3-3l-8-1l-7-5l-6-6l-8,2l-3,6
 					L614,232z M661,272l8-6l-4-6l-4,3l3-2l2,3l-7,5L661,272z"/>
 			</g>
@@ -85,7 +85,7 @@
 		<a id="a106" xlink:href="http://ja.wikipedia.org/wiki/新宿区" >
 			<g id="use108">
 				
-					<path id="_x31_3104" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3104" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M641,197l-2-5l-8,1l-8-5l-12-1l-1-9l-16,1l-5-7l-3,10l4,1l2,5l1,2l9-1l-5,4l-3,14l1,7l2,3l9-7l5,1l7,7l-2,6l3,1l3-6l8-2v-7
 					L641,197z"/>
 			</g>
@@ -93,28 +93,28 @@
 		<a id="a110" xlink:href="http://ja.wikipedia.org/wiki/文京区" >
 			<g id="use112">
 				
-					<path id="_x31_3105" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3105" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M658,184l-4-5v-8l-1-2l-7-2l-2,2l-4-3l-6,6v4l-9-1v6l-5,2l1,4l2,1l8,5l8-1l2,5l17,3l2-5l1-3l-4-1l-2-8L658,184z"/>
 			</g>
 		</a>
 		<a id="a114" xlink:href="http://ja.wikipedia.org/wiki/台東区" >
 			<g id="use116">
 				
-					<path id="_x31_3106" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3106" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M669,203l5,2l14-23l2-9l-14-3l-9,6l-13-5v8l4,5l-3-1l2,8l4,1l-1,3L669,203z"/>
 			</g>
 		</a>
 		<a id="a118" xlink:href="http://ja.wikipedia.org/wiki/墨田区" >
 			<g id="use120">
 				
-					<path id="_x31_3107" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3107" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M674,206l1,4l15,2l2-5l6-1l-1-14l13,5l3-7l-5-5l7-4l-17-22l-4,4l-4,10l-2,9l-14,23V206z"/>
 			</g>
 		</a>
 		<a id="a122" xlink:href="http://ja.wikipedia.org/wiki/江東区" >
 			<g id="use124">
 				
-					<path id="_x31_3108" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3108" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M663,252l10,16l4-2l5,7l3-4l-2-9l5-1v-3l21-4v9l-10,3l15-2l1-19l3-3l1-36l-9-7l-13-5l1,14l-6,1l-2,5l-15-2l2,4l-4,10l2,18
 					L663,252z M699,257v5l3-1v-3l6-2h-6l1-2L699,257z M703,265l1,10l3-1l3,8l4-18L703,265z M669,266l-8,6l2,3l10,17l4-7l-9-14l3-2
 					L669,266z M672,270l7,11l2-4l-6-9L672,270z"/>
@@ -123,7 +123,7 @@
 		<a id="a126" xlink:href="http://ja.wikipedia.org/wiki/品川区" >
 			<g id="use128">
 				
-					<path id="_x31_3109" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3109" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M609,293l9,1l3,8l7-3l2,7l13-3l6,1v4h5v-9l4,2l5-3l-11-19v-11l-2,3l-17,1l-4-8l-3-3h-6l1-6h-1l-4,4l2,8l-15,4l6,2l-6,8v6
 					L609,293z M663,275l-2-3l-2-3h-1l2,7L663,275z"/>
 			</g>
@@ -131,14 +131,14 @@
 		<a id="a130" xlink:href="http://ja.wikipedia.org/wiki/目黒区" >
 			<g id="use132">
 				
-					<path id="_x31_3110" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3110" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M603,287v-6l6-8l-6-2l15-4l-2-8l4-4l-7-1l-17-18l-9-2l7,11l2,12l-5,13l-14-6l4,13l-3,9h11l2,7v-3l4-1v-7L603,287z"/>
 			</g>
 		</a>
 		<a id="a134" xlink:href="http://ja.wikipedia.org/wiki/大田区" >
 			<g id="use136">
 				
-					<path id="_x31_3111" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3111" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M663,298l-5,3l-4-2v9h-5v-4l-6-1l-13,3l-2-7l-7,3l-3-8l-9-1l-6-6l-8-5v7l-4,1v3l-2,8l-6-6l-7-1l-6,4l4,2l-2,3l9,3l11,24l17,9
 					l-4,8l4,7l11-2l7-5l5,3l5-4l14,1l31,20l8-16l-18-29l-11,1l-6,8l-4-4l-4,2l-8-7v-4h-16l31-3l4-4v4h12l3-2l-4-6l-10,3l6-7L663,298
 					z M641,321l4,4l5-2l-3-6L641,321z M650,321l7,6l6-9h-12L650,321z"/>
@@ -147,7 +147,7 @@
 		<a id="a138" xlink:href="http://ja.wikipedia.org/wiki/世田谷区" >
 			<g id="use140">
 				
-					<path id="_x31_3112" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3112" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M522,273v4h5l17,4l19,15l9,7l2-3l-4-2l6-4l7,1l6,6l2-8l-2-7h-11l3-9l-4-13l14,6l5-13l-2-12l-7-11l-4-8h-6l-18,6l-11-5l-10-5l4,6
 					h-6l-2-8l-9-3h-2h-5l2,7l-4,1l5,4v3l-2,2l5,12v5h-4l-2,5l7,13L522,273z"/>
 			</g>
@@ -155,21 +155,21 @@
 		<a id="a142" xlink:href="http://ja.wikipedia.org/wiki/渋谷区" >
 			<g id="use144">
 				
-					<path id="_x31_3113" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3113" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M587,234l9,2l17,18l7,1h1l3-5v-9l-8-2l-2-7l5-7l-3-1l2-6l-7-7l-5-1l-9,7l-2-3l-1-7l-15,15l-2,4h6L587,234z"/>
 			</g>
 		</a>
 		<a id="a146" xlink:href="http://ja.wikipedia.org/wiki/中野区" >
 			<g id="use148">
 				
-					<path id="_x31_3114" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3114" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M581,208l-6,4l4,10l15-15l3-14l5-4l-9,1l-1-2l-2-5l-4-1l3-10v-1l-5-3l-9,8h-12l-9-9h-4l-2,5l6,12l15,7h5l2,13l5,1V208z"/>
 			</g>
 		</a>
 		<a id="a150" xlink:href="http://ja.wikipedia.org/wiki/杉並区" >
 			<g id="use152">
 				
-					<path id="_x31_3115" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3115" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M579,222l-4-10l6-4v-3l-5-1l-2-13h-5l-15-7l-6-12l-15,3l-8,8l-5-2l-1,8l7,6l-7,11l6,4l-3,2l3,5l9,3l2,8h6l-4-6l10,5l11,5l18-6
 					L579,222z"/>
 			</g>
@@ -177,7 +177,7 @@
 		<a id="a154" xlink:href="http://ja.wikipedia.org/wiki/豊島区" >
 			<g id="use156">
 				
-					<path id="_x31_3116" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3116" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M646,167l-8-7l-6,1l-1-4l-4,1l-2,4l-4-5h-7l-5,9l-4-6l-5-1l-9,4l-1,6l-1,2v1l5,7l16-1l1,9l12,1l-2-1l-1-4l5-2v-6l9,1v-4l6-6l4,3
 					L646,167z"/>
 			</g>
@@ -185,7 +185,7 @@
 		<a id="a158" xlink:href="http://ja.wikipedia.org/wiki/北区" >
 			<g id="use160">
 				
-					<path id="_x31_3117" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3117" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M646,167l7,2l3-3l4-2l-2-3l-14-9l1-3l5-1l-7-4l8-6v-4l-10,3l-8-5l2-8v-7h-10l-3-3l-11-1l-7-6h-1l-5,11l5,4l5-1l3,16l7,6l5,9
 					l-2,5l4,5l2-4l4-1l1,4l6-1L646,167z"/>
 			</g>
@@ -193,14 +193,14 @@
 		<a id="a162" xlink:href="http://ja.wikipedia.org/wiki/荒川区" >
 			<g id="use164">
 				
-					<path id="_x31_3118" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3118" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M654,171l13,5l9-6l14,3l4-10l-17-2l-3-5l2-4l-5-3l-21-1l-5,1l-1,3l14,9l2,3l-4,2l-3,3L654,171z"/>
 			</g>
 		</a>
 		<a id="a166" xlink:href="http://ja.wikipedia.org/wiki/板橋区" >
 			<g id="use168">
 				
-					<path id="_x31_3119" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3119" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M623,152l-5-9l-7-6l-3-16l-5,1l-5-4l5-11l-29-2l-9,3h-4l-3,6l-10,10v1l8,10l6-2l20,3l4,9l-1,13l6,1v4l9-4l5,1l4,6l5-9h7L623,152
 					z"/>
 			</g>
@@ -208,7 +208,7 @@
 		<a id="a170" xlink:href="http://ja.wikipedia.org/wiki/練馬区" >
 			<g id="use172">
 				
-					<path id="_x31_3120" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3120" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M503,180l16,9l1-8l5,2l8-8l15-3l2-5h4l9,9h12l9-8l5,3l1-2l1-6v-4l-6-1l1-13l-4-9l-20-3l-6,2l-8-10l-1,11l-4,1l-2-4l-13,2l5-5
 					l-6-3v-1h-2h-4l-5,7l-9,5v2l-6,2l5,11L503,180z"/>
 			</g>
@@ -216,7 +216,7 @@
 		<a id="a174" xlink:href="http://ja.wikipedia.org/wiki/足立区" >
 			<g id="use176">
 				
-					<path id="_x31_3121" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3121" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M694,143h4l2,4l1-6l4,4l2-6l4,1l6-6l10,3l-10-20l1-9l-7-4l-9,7l-4-7l3-10l-3-3v3l-4,3l-13,3l-13-1l-10-10l-10,4l-4,4l8,14l-4,7
 					h-6l-7,6l-2,8l8,5l10-3v4l-8,6l7,4l21,1l5,3l-2,4l3,5l17,2l4-4l-5-11L694,143z"/>
 			</g>
@@ -224,7 +224,7 @@
 		<a id="a178" xlink:href="http://ja.wikipedia.org/wiki/葛飾区" >
 			<g id="use180">
 				
-					<path id="_x31_3122" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3122" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M715,181l7,8l6-3l6,2l4-24h3l7-8l-4-4l7-1l-8-16l2-4l9-6v-4l-13,2l-4-6l4-6l-2-3l-12,2l-2,4l-7-6l-1,9l10,20l-10-3l-6,6l-4-1
 					l-2,6l-4-4l-1,6l-2-4h-4l-1,5l5,11L715,181z"/>
 			</g>
@@ -232,7 +232,7 @@
 		<a id="a182" xlink:href="http://ja.wikipedia.org/wiki/江戸川区" >
 			<g id="use184">
 				
-					<path id="_x31_3123" inkscape:connector-curvature="0" fill="#DCB6F2" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3123" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M710,197l9,7l-1,36h4l-1,14l8,3l10-1l8-5l3-10l-1-15l-1-1l1-6l16-5l9-13l-2-9l-12-13l-3-6l3-13l-8-8l-1-1l-7,1l4,4l-7,8h-3
 					l-4,24l-6-2l-6,3l-7-8l-7,4l5,5L710,197z M721,260v-3l6,1v3l1-2l-6-3L721,260z M728,261l2-2l5,2l-1,2l1-2l-4-2L728,261z"/>
 			</g>
@@ -437,21 +437,21 @@
 		<a id="a290" xlink:href="http://ja.wikipedia.org/wiki/瑞穂町" >
 			<g id="use292">
 				
-					<path id="_x31_3303" inkscape:connector-curvature="0" fill="#ECE3B4" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3303" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M333,153l-1,4l3-1l5,5l-2-6l4,2l10-27l4,5l5-2l1-3l-3-5l-5,1l2-1l-4-6l2-5l-15-2l-3-3l-13,3l-3,6l-6-2l5,8l-3,3l8,5L333,153z"/>
 			</g>
 		</a>
 		<a id="a294" xlink:href="http://ja.wikipedia.org/wiki/日の出町" >
 			<g id="use296">
 				
-					<path id="_x31_3305" inkscape:connector-curvature="0" fill="#ECE3B4" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3305" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M267,143l-6-6l-13-2l-8-5l-8,1l-14-15l-12,3l-11,7l13,8l1,7l9,1l15,9l2,7l9,4l13,1l15,6l15,1l1-8l-4-2l-1-9l-12-3L267,143z"/>
 			</g>
 		</a>
 		<a id="a298" xlink:href="http://ja.wikipedia.org/wiki/檜原村" >
 			<g id="use300">
 				
-					<path id="_x31_3307" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3307" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M202,210v-12l-5-4l-1-30l-11-15l-7-2v-3l5-3l-8-7l-4,4l-20-13l-6,3l-2,4h-15l-16,11l-9,2l-2,13l-9-1l-12,6l1,2l10,17l34,21l9,2
 					l7,4h11l19,17l17,6l6-2L202,210z"/>
 			</g>
@@ -459,14 +459,14 @@
 		<a id="a302" xlink:href="http://ja.wikipedia.org/wiki/奥多摩町" >
 			<g id="use304">
 				
-					<path id="_x31_3308" inkscape:connector-curvature="0" fill="#ECE3B4" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3308" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M175,134l1-3v-5l8-4l-1-9l22-14l2-24l-9-10l-2-7l-3-6l-9-6l-36-4l-14-7l-6,1l-3,2l-7-2L85,12l-6,2l-7,12l-12,3l-5-4l-9,5L29,41
 					l-2,7l1,5l4,5l-1,6l4,7l7,6l6-1v22l4,15l8,9l-2,12l7,13l10,5l4,9l1,2l12-6l9,1l2-13l9-2l16-11h15l2-4l6-3l20,13L175,134z"/>
 			</g>
 		</a>
 	</g>
 	
-		<path id="path306" inkscape:connector-curvature="0" fill="#EEEEEE" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+		<path id="path306" inkscape:connector-curvature="0" fill="#eeeeee" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 		M383,125l5-3l-2,13l-2-5l-2,4l-2-4l-1,4l-1-2l-7,4l7-8l-11-3H383z M202,35l5,1l-4,4v-3l-10-2H202z M386,137l4,1l-2,5l-10-4L386,137
 		z M88,123l5-1l1,3l3-6v3h9l-3-4l5-6l4,10v6l-3-5l-2,1l2,8l-4-2l1-5l-12,3l-2-4l-2,12l-3-3v4l1-5l-11-5l-2,5l-5-1l1,5l-8,6l3-6h4v-7
 		h-7l-3-5l-4,2l-4-5h-4l5-1l3,5l4-3l4,6l5-2l3,3l5-5l10,5v-3l-6-1v-11l2,10L88,123z M239,355l2-3l6,5l9-8l-1-3l5,1l-5,10l-5,2l3,4
@@ -476,12 +476,12 @@
 </g>
 <g id="g308" transform="translate(171,340)">
 	<rect id="rect313" x="-10" y="-10" fill="#FFFFFF" width="170" height="170"/>
-	<rect id="rect315" y="0" fill="#EEEEEE" width="150" height="150"/>
+	<rect id="rect315" y="0" fill="#eeeeee" width="150" height="150"/>
 	<g id="g317">
 		<a id="a319" xlink:href="http://ja.wikipedia.org/wiki/大島町" >
 			<g id="use321">
 				
-					<path id="_x31_3361" inkscape:connector-curvature="0" fill="#ECE3B4" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3361" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M119,92l-3-10l4-10l-5-5l-3-15l-2-6l-8-7l-11-9l-2,1l-15-6l2,3h-3l-12-9l-5,2l-4-2l-2,5l-7,10v8l2,21h-3l3,1l4,9l-3,15l-1,6l7,9
 					l-2,8l16,5l13,11l17,3l6-1l7,4l5-3l-3-7l6,4l4-11l-5-7l5-11L119,92z"/>
 			</g>
@@ -490,19 +490,19 @@
 </g>
 <g id="g323" transform="translate(1,250)">
 	<rect id="rect330" x="-10" y="-10" fill="#FFFFFF" width="180" height="380"/>
-	<rect id="rect332" y="0" fill="#EEEEEE" width="160" height="360"/>
+	<rect id="rect332" y="0" fill="#eeeeee" width="160" height="360"/>
 	<g id="g334">
 		<a id="a336" xlink:href="http://ja.wikipedia.org/wiki/利島村" >
 			<g id="use338">
 				
-					<path id="_x31_3362" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3362" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M133,37l11-11l-3-7l-7-2l1-2l-1,2l-4-1l-6,11l3,8L133,37z"/>
 			</g>
 		</a>
 		<a id="a340" xlink:href="http://ja.wikipedia.org/wiki/新島村" >
 			<g id="use342">
 				
-					<path id="_x31_3363" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3363" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M139,68l1,1l3,7l6-2L139,68z M108,192l9,11l11,5l2-13l2-44l9-13l2-4l-4-4l4-6l-1-4l-9-8l2,10l-4,5v-2l-5,1l-3,6l-8,10l-3,23
 					l-5,7l-4-2l2,4L108,192z M90,165l3,5l-1,2l2,1l1-5L90,165z M89,216l3-6l1-3l-7-2l-7-4l-3,2l2,4l-3,4l-3-3l1,4l-6,5l5,3l3-5l2,2
 					l5,3l6-3l-1-2L89,216z"/>
@@ -511,7 +511,7 @@
 		<a id="a344" xlink:href="http://ja.wikipedia.org/wiki/神津島村" >
 			<g id="use346">
 				
-					<path id="_x31_3364" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3364" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M42,324l5-2l2,4h3l-1-13l-2-12l-14-8l-8-4l-6,8l2,8l-7,4l1,2l3,2l-2,2l1,7l-4-1l5,4l-3,4l-6,2v9l-2-1l7,6l5-2l6,1l1-4l1,2l2-8
 					l5,3l2-5l-2-3l3,1l-3-2L42,324z M61,319l2,3l2-3H61z M63,322l3,3v-3H63z"/>
 			</g>
@@ -520,12 +520,12 @@
 </g>
 <g id="g348" transform="translate(121,500)">
 	<rect id="rect353" x="-10" y="-10" fill="#FFFFFF" width="130" height="130"/>
-	<rect id="rect355" y="0" fill="#EEEEEE" width="110" height="110"/>
+	<rect id="rect355" y="0" fill="#eeeeee" width="110" height="110"/>
 	<g id="g357">
 		<a id="a359" xlink:href="http://ja.wikipedia.org/wiki/三宅村" >
 			<g id="use361">
 				
-					<path id="_x31_3381" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3381" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M81,82l7-7V65l3-1l-4-5l3-10l-4-15l-6-3l-10-9l-3,1l-11-2l-10,4h-8l-5,3l-2,5l3,8l-9,13v7l-7,6l5,5l-1,5l3-1l-3,2l2,13l5-1l12,7
 					l8-3l7,1l2-2l6,2l2-4L81,82z"/>
 			</g>
@@ -534,12 +534,12 @@
 </g>
 <g id="g363" transform="translate(241,500)">
 	<rect id="rect368" x="-10" y="-10" fill="#FFFFFF" width="100" height="130"/>
-	<rect id="rect370" y="0" fill="#EEEEEE" width="80" height="110"/>
+	<rect id="rect370" y="0" fill="#eeeeee" width="80" height="110"/>
 	<g id="g372">
 		<a id="a374" xlink:href="http://ja.wikipedia.org/wiki/御蔵島村" >
 			<g id="use376">
 				
-					<path id="_x31_3382" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3382" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M51,81l7-3l6-16L53,43l-10-8l-12,4l-9,13l-1,15l2,7l8,4L51,81z"/>
 			</g>
 		</a>
@@ -547,12 +547,12 @@
 </g>
 <g id="g378" transform="translate(331,430)">
 	<rect id="rect383" x="-10" y="-10" fill="#FFFFFF" width="220" height="200"/>
-	<rect id="rect385" y="0" fill="#EEEEEE" width="200" height="180"/>
+	<rect id="rect385" y="0" fill="#eeeeee" width="200" height="180"/>
 	<g id="g387">
 		<a id="a389" xlink:href="http://ja.wikipedia.org/wiki/八丈町" >
 			<g id="use391">
 				
-					<path id="_x31_3401" inkscape:connector-curvature="0" fill="#ECE3B4" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3401" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M174,98l2-8l-8-15l-23-5l2-2l-2,1l-3-7l-9-3l-5-6v-3l-7-5l-11-10H96l-7,1l-3,5l-4,12l2,7l7,14l4,11l12,5l3,2l3-3l2,13v11l5,6
 					l10,6l4-1l5,5l6-1l5,5l6,7l4-3l-2-9v-7l4-8l15-4l1-4L174,98z M47,73l4,2v-6l-1-6l-5-2l-3-5h-4l-4-1l-2,5l4,4l4,9H47z"/>
 			</g>
@@ -561,12 +561,12 @@
 </g>
 <g id="g393" transform="translate(331,530)">
 	<rect id="rect398" x="-10" y="-10" fill="#FFFFFF" width="90" height="100"/>
-	<rect id="rect400" y="0" fill="#EEEEEE" width="70" height="80"/>
+	<rect id="rect400" y="0" fill="#eeeeee" width="70" height="80"/>
 	<g id="g402">
 		<a id="a404" xlink:href="http://ja.wikipedia.org/wiki/青ケ島村" >
 			<g id="use406">
 				
-					<path id="_x31_3402" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3402" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M42,55l9-5v-8l-4-4l-5-7l-11-3l-1,18l4,6L42,55z"/>
 			</g>
 		</a>
@@ -574,12 +574,12 @@
 </g>
 <g id="g408" transform="translate(541,430)">
 	<rect id="rect413" x="-10" y="-10" fill="#FFFFFF" width="130" height="200"/>
-	<rect id="rect415" y="0" fill="#EEEEEE" width="110" height="180"/>
+	<rect id="rect415" y="0" fill="#eeeeee" width="110" height="180"/>
 	<g id="g417">
 		<a id="a419" xlink:href="http://ja.wikipedia.org/wiki/小笠原村" >
 			<g id="use421">
 				
-					<path id="_x31_3421a" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3421a" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M37,53l4,3l4,1l-1-5l4-1l6-7l2-10h-3l-3-4l1-6l4-3l-7-3l-3-4l-4,3l3,4l-2,3l2,7h-3v9l-2,5l4,2l-1,4L37,53z M57,86l-2,4h11h15h3
 					v-4l-8-3l1-7l-5-2l-2-6l-7,2l-4,3l1-6l-4,1l-6-5l-2-6l-3,7l4,3l-6,3l4,5l-3,4l5-2l11,5L57,86z M30,81l-6-2l2,4l-4,3l8-1V81z
 					 M83,146l3-1l-2-5l-4-3l1-4l1-12l-2-4l-5-1v-9l-5-9h-3l-8-4h-6h-9l-5,5l1,6l3,5l6-1l-2-3l8-7l1,11l6,4l-3,9l-20,1l1,3l4-1l5,3
@@ -591,12 +591,12 @@
 </g>
 <g id="g423" transform="translate(661,430)">
 	<rect id="rect428" x="-10" y="-10" fill="#FFFFFF" width="160" height="200"/>
-	<rect id="rect430" y="0" fill="#EEEEEE" width="140" height="180"/>
+	<rect id="rect430" y="0" fill="#eeeeee" width="140" height="180"/>
 	<g id="g432">
 		<a id="a434" xlink:href="http://ja.wikipedia.org/wiki/小笠原村" >
 			<g id="use436">
 				
-					<path id="_x31_3421b" inkscape:connector-curvature="0" fill="#B6F2DC" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
+					<path id="_x31_3421b" inkscape:connector-curvature="0" fill="#f6bad3" stroke="#000000" stroke-width="0.25" stroke-linejoin="round" d="
 					M82,65h3v-4h-5l-1,3l-7,1l-7-4l-3-13l3-4l3-10l-2,1l-12,4l-4-1v-4l-1-5l11-6l4,1l1-3l-5-3l-4-3l-1,3h-8l-2-2l2,9l-3-2l-5,1l-3-8
 					l-4-6l-3,3l3,8l4,8l5,10l7,9l-3,7h4l3,1l-4,7l2,2l5,14l1,5l4,1l2-4v8l7-2l4,7l4,9l-5,7h5l4-3l-1-7l-2-11l-4-4l-4-8l3-5v-6L82,65
 					z M40,119l-3-11h-5l-2,6l2,1v7l2-3l2,4L40,119z M61,132l1-3h-5l-7,5L61,132z M119,151l9-3l-4-3l-4-4l-3,8L119,151z M62,163v-9

@@ -12,6 +12,7 @@ import { Guess, loadAllGuesses, saveGuesses } from "../domain/guess";
 
 const forcedCountries: Record<string, string> = {
   "2022-06-06": "29",
+  "2022-06-07": "31",
 };
 
 const noRepeatStartDate = DateTime.fromFormat("2022-05-01", "yyyy-MM-dd");

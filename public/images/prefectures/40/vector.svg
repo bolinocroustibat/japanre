@@ -5,9 +5,9 @@
 	 y="0px" width="498px" height="526px" viewBox="0 0 498 526" enable-background="new 0 0 498 526" xml:space="preserve">
 <title>福岡県行政区画地図 (2010年2月1日)</title>
 <desc>Author: Lincun</desc>
-<rect y="0" fill="#EEEEEE" width="498" height="526"/>
+<rect y="0" fill="#eeeeee" width="498" height="526"/>
 <g>
-	<path fill="#CCCCCC" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M369-1v2l1,5l-4,8h3l2,3v5l-2,3l-1,5l3,6v3
+	<path fill="#aaaaaa" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M369-1v2l1,5l-4,8h3l2,3v5l-2,3l-1,5l3,6v3
 		l-1,5l-3,5l1-1l4,1l-2,6l4,2l2-1v-1l-2-1h1l-1-2h3l1-2v2l1-1l2-3l17-13l5-4l-2-3l2,1v-4l3,2l1-2l-2-1v-3l1-2l-1-1l11-11V4l3-5H369z
 		 M420-1h2l1,3v3l8,3l6,2l1-2h4l2,2l8,13l5,5l1,2h2l-2-3v-4v2l7-1l-2,5l6,4l2,3l-2,1v2l1-1l2-1v1h2l-2,2l2,1h-5v2l2-2v2l1,1l-4,1v4
 		l8,10h3v-3l5-2l5-1v-3l6,2l2-5l1,1l-3,5l-4,4l3,1l3-2l2-6V-1H420z M499,56l-1,1l-1,3l1,1l1-1V56z M369,49l-1,2l-3-1v3l-2,1l-6-5
@@ -30,7 +30,7 @@
 		l-2,2v9l14,3l-1,2l-5,1l-3,4v2l3,2l8,7h4l5,3v1v4l-4,1l-1,2l2,8l-3,3l-2,10l-3,2l1,2l-3,4l-6,3l2,5l7-1l2,2l4-1l3,2l2,2l1,4l2,2v3
 		l5,1l3,5l5,1l3-2l1,2l3-1l4,2l2,6l4,6h8l3-2l3-6l4-3v-6l1-2l-3-3l1-3l5-6l-3-3l-3-7l-5-4l-2-3l1-3l-7-5l1-2l2,1l-1-7l2-9l2-1v-3
 		l5,3h4l11-8l7-1l9,3l5,2l3-1l4,2l2,3l1,4l5,1l1,3l6,3v1l-1,1l6,4l2,6l-1,6l4,6v7l2,5l3,3l3-2l2,2v1l8,9l-1,2l5,14l-1,1l2,2V219z"/>
-	<path fill="#DCB6F2" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M162,303v-6l3,2v-2l-2-1v-3l-5-3l1-6l-3-6
+	<path fill="#f6bad3" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M162,303v-6l3,2v-2l-2-1v-3l-5-3l1-6l-3-6
 		l-1-8l-3-4l2-2l2,2l4-2l1,1l2-3h2l1-4l4-1l4-3l1,3h2l3-6l-1-2l1-3l4-1l5,6l2-1l1-6l-4-5l1-1l5,5l4-4l-1-3h-2v-3l-2-5l-4-5l-8-6
 		l-1-3l13-12l5,5l3-2v-2v-2l1-3l-2-2l-1,1l-2-2l-2,1v-3l-4-5v-6v-1l-2-1l-3,2l-3-9l-12-7l-1,4l-6,7l-9,7l-13,6l-7,1l-5-1l-5-12h-6
 		l-1,3l5,10h5v-1l6,1l3,5l2-1l7,4l2-1l-1-3l1-4l3-3l12-2l4-3l-2-1l1-2l8-2l3,1v3l-3,2l3,5v2h-3l-8,4l6,2v3l-4-1l2,1v1l-3-2l-2,4l2,1
@@ -80,7 +80,7 @@
 		l2-1l2,5l3-1l3,3h2L286,123z M191,94l2,1v-3h-2V94z M177,78l1-3l2,1l-1-3h2l2-3l-1-2l-6,1l-1,1l-5-1l-3,1l-1,6l1,1v1l7,3h2L177,78z
 		 M204,72l-1-3l-3-1l-2,2l4,3v3l5,1L204,72z M188,303h-2l-1-4l3-4l-1-6l3-4v-2l-4-1l-2-13l-2-2l1-3l-3-2l-3-5h-2l-1-3l-4,3l-4,1
 		l-1,4h-2l-2,3l-1-1l-4,2l-2-2l-2,2l3,4l1,8l3,6l-1,6l5,3v3l2,1v2l-3-2v6l1,2l2,4l5,3l-4,4l2,3l3-3l4,2l4-2l1-7l7-2L188,303z"/>
-	<path fill="#ECE3B4" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M186,420l1-2l-2-2l-1-5l3-1l2-8l-2-7l-6-4
+	<path fill="#f6bad3" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M186,420l1-2l-2-2l-1-5l3-1l2-8l-2-7l-6-4
 		l-1,3v1h-3l1,4l-3-1l-3,4l-1-2l-3,1l5,2l-1,2l-1,5h-2l2,1v5l3-1l3,7L186,420z M211,398l3-1v1l3-1l6,2l8-2l7-2l6-3h1l2,3h9v-4l-5-9
 		l1-1l-1-2l1-6l-1-1l-5,4l-9,5v-2l-3-3l-3,2l-1,3l-8,3l-3-1v1l-1-1v1l-1,2v-2l-2,1l1-2l-3,2v-2l-1,3v-2l-2,2l-2-2l1,1l-1,2l2,4l-1,1
 		l-1-1l-1,2h2l-2,2h2L211,398z M271,335l-6-4v-2l-5,1l3-5l-1-2l-8-2l-4-4l2-1l-1-2l3-3h4l10-12l-2-5l-3-1v-3l4-9l3-3l1-3l-2-1h2
@@ -102,7 +102,7 @@
 		l-3-5l1-3l-3-2l-2-5v-1l1-4l-4-4l1-5l-2-1l-3,2v3l-3-1l3,5l2,2h2l-1,2l-5-4l-3,4l-7,3l-1,1l-12,3h-9l-5-2l-1-5l-9,1v3l6,9l4,2v5
 		l6,5l-1,4l5,7l4-3h4l5,1l4,4l1,3l-2,3l3,5l4,8l2,13l1,4l9-2L278,148z M155,143h1l-7-4l-2,3l2,3l2-3L155,143z M281,222h-3l-2-3v2
 		l-2-1l-3,2h-5l-2,3l4,1l-1,4l4-3l-2,5l-1,3l3,9l2-2l2,1v4l-3,5l1,2l2-1l2-5h1v-4l3-1v-7l3-1l2-9l-2-6L281,222z"/>
-	<path fill="#B6F2DC" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M365,293l-1-1h-13l-2,2h-3l-4-8l-3-3l1-2l4-2
+	<path fill="#f6bad3" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M365,293l-1-1h-13l-2,2h-3l-4-8l-3-3l1-2l4-2
 		l-3-4l-9-1l-4,2l-1,6h-6v1h-4l-2,6l-5,1l6,2l3-2l5-1l3,1l2-1l5,2l2,2v4l2,4l2,5l2,3l2-1l1,4v-1l-1,1l4,3h-1l1,1h-2l1,1h2l-1,3l1,6
 		v4l1-2h6l4-2l-1-4l1-8l2-1l-1-3l1-5l2-11L365,293z M374,240l-1-5l-1-8l-2-2v-3l-4-3v-4l-2-2l4-8v-3l-2-1v-1l-4,3l-1-3l1-4h-1l-4,3
 		l-5,2l-4-4l-1,1l2,3l-1,6l2,11l3,6l-1,3l2,7l7-5l12,11H374z"/>
@@ -125,7 +125,7 @@
 		 M352,227l-2,2l-3-1v-4l-4,3l-4-3l2-4l-3-2l-1-1 M204,213l-5,2v4l2,3l-2,1h-4l-2-3l-3-2l-3-3l-6,2 M475,225h-4v-3l-3-2 M229,223
 		l-6,3l-1,4l-5,2h-7l-4-3h-3l-3-2l1-1l-2-3 M203,229v4l-2-1l-2,2l-1,5 M339,224l-1,1l-1,3l3,2v4l-3,3v17l-1,4l-7,3v3 M385,274l-1-4
 		l-4-1l1-5l-2-2l-2-6l1-4l-5-9l1-3 M251,314l-2-2v-2l-1,1"/>
-	<path fill="#EEEEEE" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M295,70l2,1l2-5l-3,1L295,70z M297,70l-1,2
+	<path fill="#eeeeee" stroke="#000000" stroke-width="0.2" stroke-linejoin="round" d="M295,70l2,1l2-5l-3,1L295,70z M297,70l-1,2
 		l2,2l3-3l-1-2l-1,2v-2l-1,2v-2L297,70z M190,189l1,3l3,1L190,189z M101,298l-3,2l1,1h3l-3,1v2l1-2l4-1l-2,1l1,2l-2,1v3l2-2v2h4
 		l-4-3l2-2l-1-2l3-1h-1l-1-1l3-3l-3,1l-1,3h-2l1-2H101z M399,432h-4l3,1l1,4l-2,2l1,1l-2,1l1,1l3-1l-1-3l2-2l-2-2V432z M399,432l3-7
 		l2-1l-1-2h4l-4-4v-2h-2l1,1l-1,2l1,1v4l-2,1L399,432z"/>
