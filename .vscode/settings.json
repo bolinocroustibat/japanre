@@ -7,5 +7,11 @@
     "activityBar.background": "#143425",
     "titleBar.activeBackground": "#1C4834",
     "titleBar.activeForeground": "#F5FBF8"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

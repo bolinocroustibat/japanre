@@ -88,7 +88,7 @@ export default function App() {
               <Twemoji text="❓" />
             </button>
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
-              Japanre
+              Japan<span className="text-green-600">re</span>
             </h1>
             <button
               className="ml-3 text-xl"

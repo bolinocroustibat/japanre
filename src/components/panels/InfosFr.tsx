@@ -47,8 +47,8 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
             Votre essai <span className="uppercase font-bold">Fukushima</span>{" "}
             est à {formatDistance(538_000, settingsData.distanceUnit)} de la
             préfecture cible, la préfecture cible se trouve dans la direction
-            nord-est et vous avez une proximité de seulement 78% car votre essai
-            est plutôt éloigné.
+            sud-ouest avec un score de proximité de 78% car votre essai est
+            plutôt éloigné.
           </div>
         </div>
         <div>
@@ -94,7 +94,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
         Un nouveau <Japanre /> sera disponible chaque jour !
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Japanre /> a été adapté de{" "}
+        <Japanre /> est un clone de{" "}
         <a
           className="underline"
           href="https://worldle.teuteuf.fr/"
@@ -134,7 +134,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          Fait par{" "}
+          <Japanre /> adapté par{" "}
           <a
             className="underline"
             href="https://twitter.com/bolinocrousti"

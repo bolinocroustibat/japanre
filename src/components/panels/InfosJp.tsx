@@ -46,8 +46,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             Your guess <span className="uppercase font-bold">福島県</span> is{" "}
             {formatDistance(538000, settingsData.distanceUnit)} away from the
             target prefecture, the target prefecture is in the South-West
-            direction and you have only 76% of proximity because it&apos;s quite
-            far away.
+            direction with 76% proximity score because it&apos;s quite far away.
           </div>
         </div>
         <div>
@@ -66,7 +65,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             Your second guess{" "}
             <span className="uppercase font-bold">京都府</span> is getting
             closer! {formatDistance(38000, settingsData.distanceUnit)} away,{" "}
-            South direction and 98%.
+            South direction and 98% proximity.
           </div>
         </div>
         <div>
@@ -92,7 +91,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
         A new <Japanre /> will be available every day!
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Japanre /> has been adapted from{" "}
+        <Japanre /> is a clone of{" "}
         <a
           className="underline"
           href="https://worldle.teuteuf.fr/"
@@ -131,7 +130,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          Made by{" "}
+          <Japanre /> adapted by{" "}
           <a
             className="underline"
             href="https://twitter.com/bolinocrousti"
@@ -152,7 +151,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
           )
         </div>
         <div>
-          Want to support?{" "}
+          Want to support Worldle?{" "}
           <a
             className="underline"
             href="https://www.ko-fi.com/teuteuf"
