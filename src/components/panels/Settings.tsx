@@ -107,17 +107,6 @@ export function Settings({
             {t("settings.noImageMode")}
           </label>
         </div>
-        <div className="flex p-1">
-          <input
-            type="checkbox"
-            id="setting-rotationMode"
-            checked={settingsData.rotationMode}
-            onChange={(e) => updateSettings({ rotationMode: e.target.checked })}
-          />
-          <label className="flex-1 ml-2" htmlFor="setting-rotationMode">
-            {t("settings.rotationMode")}
-          </label>
-        </div>
       </div>
       {debugEnabled && (
         <div className="my-4">
