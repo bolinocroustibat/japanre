@@ -14,22 +14,22 @@ interface InfosProps {
 
 export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
   return (
-    <Panel title="How to play" isOpen={isOpen} close={close}>
+    <Panel title="遊び方" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <div>
-          Guess the <Japanre /> in 6 guesses.
+          6つの推測で
+          <Japanre />
+          を推測します。
         </div>
         <div>
-          Each guess must be a valid prefecture of Japan among the 47 official
-          Japanese prefectures.
+          それぞれの推測は、47の公式の日本の都道府県の中で有効な都道府県でなければなりません。
         </div>
         <div>
-          After each guess, you will have the distance, the direction and the
-          proximity from your guess and the target prefecture.
+          それぞれの推測の後、あなたはあなたの推測から目的の県までの距離、方向、そして近さを得るでしょう。
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <div className="font-bold">Examples</div>
+        <div className="font-bold">例</div>
         <div>
           <Guesses
             rowCount={1}
@@ -81,14 +81,16 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">奈良県</span>,
-            it&apos;s the prefecture to guess! Congrats!{" "}
+            Next guess, <span className="uppercase font-bold">奈良県</span>, was
+            the prefecture to guess! お疲れ様ですた!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3 font-bold">
-        A new <Japanre /> will be available every day!
+        新しい
+        <Japanre />
+        が毎日利用可能になります！
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
         <Japanre /> is a clone of{" "}
