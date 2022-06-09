@@ -155,7 +155,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           className={`pointer-events-none max-h-52 m-auto transition-transform duration-700 ease-in ${
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
-          alt="country to guess"
+          alt="prefecture to guess"
           src={`images/prefectures/${country?.code.toLowerCase()}/vector.svg`}
           style={
             rotationMode && !gameEnded
