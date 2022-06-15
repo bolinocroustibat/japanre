@@ -43,7 +43,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">福島県</span> is{" "}
+            Your guess「<span className="uppercase font-bold">福島県</span>」is{" "}
             {formatDistance(538000, settingsData.distanceUnit)} away from the
             target prefecture, the target prefecture is in the South-West
             direction with 76% proximity score because it&apos;s quite far away.
@@ -62,8 +62,8 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess{" "}
-            <span className="uppercase font-bold">京都府</span> is getting
+            Your second guess「
+            <span className="uppercase font-bold">京都府</span>」is getting
             closer! {formatDistance(38000, settingsData.distanceUnit)} away,{" "}
             South direction and 98% proximity.
           </div>
@@ -81,8 +81,9 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">奈良県</span>, was
-            the prefecture to guess! お疲れ様ですた!{" "}
+            あなたの次の推測「
+            <span className="uppercase font-bold">奈良県</span>
+            」は推測する県でした！お疲れ様ですた！
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
         </div>
@@ -93,7 +94,16 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
         が毎日利用可能になります！
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
-        <Japanre /> is a clone of{" "}
+        <Japanre />は
+        <a
+          className="underline"
+          href="https://twitter.com/teuteuf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          teuteuf（@teuteuf）
+        </a>
+        によって作成された
         <a
           className="underline"
           href="https://worldle.teuteuf.fr/"
@@ -101,17 +111,17 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           Worldle
-        </a>{" "}
-        created by{" "}
+        </a>
+        のクローンであり、
         <a
           className="underline"
-          href="https://twitter.com/teuteuf"
+          href="https://twitter.com/powerlanguish"
           target="_blank"
           rel="noopener noreferrer"
         >
-          teuteuf (@teuteuf)
-        </a>{" "}
-        which is itself heavily inspired by{" "}
+          Josh Wardle（@powerlanguish）
+        </a>
+        によって作成された
         <a
           className="underline"
           href="https://www.powerlanguage.co.uk/wordle/"
@@ -119,41 +129,33 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           Wordle
-        </a>{" "}
-        created by{" "}
-        <a
-          className="underline"
-          href="https://twitter.com/powerlanguish"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Josh Wardle (@powerlanguish)
         </a>
+        に大きく影響を受けています。
       </div>
       <div className="space-y-3 text-justify pb-3">
         <div>
-          <Japanre /> adapted by{" "}
+          <Japanre />は
           <a
             className="underline"
             href="https://twitter.com/bolinocrousti"
             target="_blank"
             rel="noopener noreferrer"
           >
-            bolino (@bolinocrousti)
-          </a>{" "}
-          - (
+            bolino（@bolinocrousti）
+          </a>
+          によって適応されました（
           <a
             className="underline"
             href="https://github.com/bolinocroustibat/japanre/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            source code
+            ソースコード
           </a>
-          )
+          ）
         </div>
         <div>
-          Want to support Worldle?{" "}
+          をサポートしたいですか？{" "}
           <a
             className="underline"
             href="https://www.ko-fi.com/teuteuf"
@@ -161,7 +163,7 @@ export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
             rel="noopener noreferrer"
           >
             <Twemoji
-              text="Buy teuteuf a coffee! ☕"
+              text="teuteufにコーヒーを買う！☕"
               options={{ className: "inline-block" }}
             />
           </a>

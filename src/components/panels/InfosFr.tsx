@@ -65,8 +65,8 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Votre second essai{" "}
-            <span className="uppercase font-bold">Fukushima</span> est plus
-            proche. La bonne réponse est à{" "}
+            <span className="uppercase font-bold">Kyoto</span> est plus proche.
+            La bonne réponse est à{" "}
             {formatDistance(38_000, settingsData.distanceUnit)} au sud et la
             proximité est de 98%.
           </div>
