@@ -12,7 +12,7 @@ interface InfosProps {
   settingsData: SettingsData;
 }
 
-export function InfosJp({ isOpen, close, settingsData }: InfosProps) {
+export function InfosJa({ isOpen, close, settingsData }: InfosProps) {
   return (
     <Panel title="遊び方" isOpen={isOpen} close={close}>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">

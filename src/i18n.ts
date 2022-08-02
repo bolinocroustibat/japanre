@@ -25,6 +25,7 @@ export const translations = {
         noImageMode: "Hide prefecture image for more of a challenge.",
         rotationMode: "Randomly rotate prefecture image.",
         updateNotificationDisabled: "Disable update notifications.",
+        showScale: "Replace proximity percent by size percent.",
       },
       stats: {
         title: "Statistics",
@@ -88,6 +89,7 @@ export const translations = {
         noImageMode: "もっと挑戦するために県の画像を隠す。",
         rotationMode: "県の画像をランダムに回転させる。",
         updateNotificationDisabled: "更新通知を無効にする。",
+        showScale: "Replace proximity percent by size percent.",
       },
       stats: {
         title: "統計学",
@@ -152,6 +154,8 @@ export const translations = {
         rotationMode: "Tourne l'image de la préfecture de manière aléatoire.",
         updateNotificationDisabled:
           "Désactive les notification de mise à jour.",
+        showScale:
+          "Remplace le pourcentage de proximité par le pourcentage de taille.",
       },
       stats: {
         title: "Statistiques",
