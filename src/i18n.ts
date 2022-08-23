@@ -67,7 +67,7 @@ export const translations = {
       },
     },
   },
-  jp: {
+  ja: {
     translation: {
       placeholder: "県...",
       guess: "推測",
