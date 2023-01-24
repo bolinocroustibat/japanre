@@ -43,7 +43,8 @@ export function InfosJa({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            最初の回答である「<span className="uppercase font-bold">福島県</span>」is{" "}
+            最初の回答である「
+            <span className="uppercase font-bold">福島県</span>」is{" "}
             {formatDistance(538000, settingsData.distanceUnit)} away from the
             target prefecture, the target prefecture is in the South-West
             direction with 76% proximity score because it&apos;s quite far away.
@@ -83,8 +84,7 @@ export function InfosJa({ isOpen, close, settingsData }: InfosProps) {
           <div className="my-2">
             あなたの次の推測「
             <span className="uppercase font-bold">奈良県</span>
-            」は推測する県でした！お疲れ様ですた！
-            <Twemoji text="🎉" options={{ className: "inline-block" }} />
+            」は推測する県でした！お疲れ様ですた！🎉
           </div>
         </div>
       </div>

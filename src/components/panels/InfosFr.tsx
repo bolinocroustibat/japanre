@@ -85,8 +85,7 @@ export function InfosFr({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Prochain essai, <span className="uppercase font-bold">Nara</span>,
-            c&apos;est la préfecture à deviner ! Bien joué !{" "}
-            <Twemoji text="🎉" options={{ className: "inline-block" }} />
+            c&apos;est la préfecture à deviner ! Bien joué ! 🎉
           </div>
         </div>
       </div>

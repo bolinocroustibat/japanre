@@ -16,7 +16,6 @@ import { useTranslation } from "react-i18next";
 import { SettingsData } from "../hooks/useSettings";
 import { useMode } from "../hooks/useMode";
 import { getDayString, useTodays } from "../hooks/useTodays";
-import { Twemoji } from "@teuteuf/react-emoji-render";
 import { countries } from "../domain/countries.position";
 import { useNewsNotifications } from "../hooks/useNewsNotifications";
 
@@ -132,10 +131,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           type="button"
           onClick={() => setHideImageMode(false)}
         >
-          <Twemoji
-            text={t("showCountry")}
-            options={{ className: "inline-block" }}
-          />
+          {t("showCountry")}
         </button>
       )}
       <div className="flex my-1">
@@ -148,7 +144,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               })
             }
           >
-            <Twemoji text="↪️" className="text-xl" />
+            ↪️
           </button>
         )}
         <img
@@ -174,7 +170,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               })
             }
           >
-            <Twemoji text="↩️" className="text-xl" />
+            ↩️
           </button>
         )}
       </div>
@@ -184,10 +180,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           type="button"
           onClick={() => setRotationMode(false)}
         >
-          <Twemoji
-            text={t("cancelRotation")}
-            options={{ className: "inline-block" }}
-          />
+          {t("cancelRotation")}
         </button>
       )}
       <Guesses
@@ -214,10 +207,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twemoji
-                  text={t("showOnGoogleMaps")}
-                  options={{ className: "inline-block" }}
-                />
+                {t("showOnGoogleMaps")}
               </a>
               <a
                 className="underline text-center block mt-4 whitespace-nowrap"
@@ -225,10 +215,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Twemoji
-                  text={t("showOnWikipedia")}
-                  options={{ className: "inline-block" }}
-                />
+                {t("showOnWikipedia")}
               </a>
             </div>
           </>
@@ -244,12 +231,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
                 className="rounded font-bold p-1 flex items-center justify-center border-2 uppercase my-0.5 hover:bg-gray-50 active:bg-gray-100 dark:hover:bg-slate-800 dark:active:bg-slate-700"
                 type="submit"
               >
-                <Twemoji
-                  text="🇯🇵"
-                  options={{ className: "inline-block" }}
-                  className="flex items-center justify-center"
-                />{" "}
-                <span className="ml-1">{t("guess")}</span>
+                🇯🇵 <span className="ml-1">{t("guess")}</span>
               </button>
             </div>
           </form>

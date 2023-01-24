@@ -106,7 +106,7 @@ export function GuessRow({
                   animationDelay: `${SQUARE_ANIMATION_LENGTH * index}ms`,
                 }}
               >
-                <Twemoji text={character} />
+                {character}
               </div>
             ))}
           </div>
@@ -131,7 +131,7 @@ export function GuessRow({
             {guess && formatDistance(guess.distance, distanceUnit)}
           </div>
           <div className="flex items-center justify-center border-2 h-8 col-span-1 animate-reveal rounded">
-            {guess && <Twemoji text={getDirectionEmoji(guess)} />}
+            {guess && getDirectionEmoji(guess)}
           </div>
           <div className="flex items-center justify-center border-2 h-8 col-span-1 animate-reveal animate-pop rounded">
             {`${percentToDisplay}%`}

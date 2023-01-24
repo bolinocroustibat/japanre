@@ -82,8 +82,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Next guess, <span className="uppercase font-bold">Nara</span>, was
-            the prefecture to guess! Congrats!{" "}
-            <Twemoji text="🎉" options={{ className: "inline-block" }} />
+            the prefecture to guess! Congrats! 🎉
           </div>
         </div>
       </div>
