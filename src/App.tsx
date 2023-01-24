@@ -105,7 +105,7 @@ export default function App() {
               type="button"
               onClick={() => setInfoOpen(true)}
             >
-              <Twemoji text="❓" />
+              ❔
             </button>
             <h1 className="text-4xl font-bold uppercase tracking-wide text-center my-1 flex-auto">
               Wor<span className="text-green-600">l</span>dle
@@ -122,16 +122,12 @@ export default function App() {
               type="button"
               onClick={() => setSettingsOpen(true)}
             >
-              <Twemoji text="⚙️" />
+              ⚙️
             </button>
           </header>
           <Game settingsData={settingsData} updateSettings={updateSettings} />
-          <footer className="flex justify-center items-center mt-8 mb-4">
-            <Twemoji
-              text="❤️"
-              className="flex items-center justify-center mr-1"
-            />{" "}
-            <Worldle />? -
+          <footer className="flex justify-center text-sm mt-8 mb-1">
+            ❤️ <Worldle />? -
             {country && supportLink[country.code] != null ? (
               <a
                 className="underline pl-1"
