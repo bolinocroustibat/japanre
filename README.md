@@ -6,8 +6,8 @@ Heavily adapted from [Worldle](https://worldle.teuteuf.fr/) by [teuteuf](https:/
 
 ## To test
 
-```sh
-npm install -g serve
+```bash
+bun install -g serve
 serve -s build
 ```
 
@@ -17,20 +17,20 @@ Then test on `http://server_ip:3000`.
 
 Follow instructions on https://create-react-app.dev/docs/deployment/
 
-```sh
-npm run build
+```bash
+bun run build
 ```
 
 Example nginx vhost:
 ```nginx
- server {
-     server_name japanre.adriencarpentier.com;
-     root /var/www/japanre/build;
-     index index.html;
-     location / {
-         try_files $uri /index.html;
-         #try_files $uri $uri/ =404;
-     }
+server {
+    server_name japanre.adriencarpentier.com;
+    root /var/www/japanre/build;
+    index index.html;
+    location / {
+        try_files $uri /index.html;
+        #try_files $uri $uri/ =404;
+    }
 }
 ```
 

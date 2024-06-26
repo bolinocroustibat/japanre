@@ -1,0 +1,67 @@
+name: Deploy to prod when tag
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+
+  deploy-prod:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v1
+        name: Install Bun
+        with:
+            bun-version: latest
+
+      - name: Install dependencies with bun
+        shell: bash
+        run: bun install
+
+      - name: Build for prod with bun and vite
+        shell: bash
+        run: bun run build
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            name: id_rsa
+            known_hosts: ${{ secrets.SSH_HOST }}
+
+      - name: Adding server to known hosts
+        shell: bash
+        run: |
+            : Adding server to known hosts
+            ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Copy build to server with rsync
+        shell: bash
+        run: |
+            : Copy build to server with rsync
+            rsync -avz --exclude '.git' --chown=github:www-data --chmod=Dg=rwx,Fg=rwx ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.server_path }} # We set directory (D) and files (F) permission for group www-data to rwx so that the same users can overwrite later
+
+      - name: Relaunch nginx on server
+        uses: appleboy/ssh-action@master
+        with:
+            host: ${{ secrets.SSH_HOST }}
+            username: ${{ secrets.SSH_USER }}
+            key: ${{ secrets.SSH_PRIVATE_KEY }}
+            script: sudo systemctl restart nginx.service
+
+      - name: Create Sentry release
+        uses: getsentry/action-release@v1.7.0
+        env:
+            SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+            SENTRY_ORG: "adrien-carpentier"
+            SENTRY_PROJECT: "adriencarpentier"
+        with:
+            environment: production
+            version: ${{ github.ref_name }}
