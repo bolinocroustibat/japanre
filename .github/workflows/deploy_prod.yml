@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: |
             : Copy build to server with rsync
-            rsync -avz --exclude '.git' --chown=github:www-data --chmod=Dg=rwx,Fg=rwx ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.server_path }} # We set directory (D) and files (F) permission for group www-data to rwx so that the same users can overwrite later
+            rsync -avz --exclude '.git' --chown=github:www-data --chmod=Dg=rwx,Fg=rwx ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SERVER_PATH }} # We set directory (D) and files (F) permission for group www-data to rwx so that the same users can overwrite later
 
       - name: Relaunch nginx on server
         uses: appleboy/ssh-action@master
