@@ -6,12 +6,20 @@ Heavily adapted from [Worldle](https://worldle.teuteuf.fr/) by [teuteuf](https:/
 
 ## To test
 
+### With Node
+
 ```bash
 bun install -g serve
 serve -s build
 ```
 
-Then test on `http://server_ip:3000`.
+### With Bun
+
+```bash
+bunx serve -s build
+```
+
+Then open `http://server_ip:3000`.
 
 ## To deploy on production with Nginx
 
