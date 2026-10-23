@@ -25,9 +25,13 @@ jobs:
         shell: bash
         run: bun install
 
-      - name: Build for prod with bun and vite
+      - name: Build for prod with bun
         shell: bash
         run: bun run build
+
+      - name: Check build output exists
+        shell: bash
+        run: test -f ./build/index.html
       - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.10.0
         with:
@@ -40,7 +44,7 @@ jobs:
         shell: bash
         run: |
             : Copy build to server with rsync
-            rsync -avz --exclude '.git' --chown=github:www-data --chmod=Dg=rwx,Fg=rwx ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SERVER_PATH }} # We set directory (D) and files (F) permission for group www-data to rwx so that the same users can overwrite later
+            rsync -avz --exclude '.git' --chown=github:www-data --chmod=Dg=rwx,Fg=rwx ./build/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SERVER_PATH }} # We set directory (D) and files (F) permission for group www-data to rwx so that the same users can overwrite later
 
       - name: Relaunch nginx on server
         uses: appleboy/ssh-action@master

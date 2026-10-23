@@ -122,19 +122,3 @@ function getCountry(dayString: string) {
 
   return pickedCountry;
 }
-
-function isARepeat(
-  pickedCountry: Country | null,
-  lastPickDates: Record<string, DateTime>,
-  currentDayDate: DateTime
-) {
-  if (pickedCountry == null || lastPickDates[pickedCountry.code] == null) {
-    return false;
-  }
-  const daysSinceLastPick = lastPickDates[pickedCountry.code].diff(
-    currentDayDate,
-    "day"
-  ).days;
-
-  return daysSinceLastPick < 100;
-}
