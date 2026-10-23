@@ -6,24 +6,22 @@ Heavily adapted from [Worldle](https://worldle.teuteuf.fr/) by [teuteuf](https:/
 
 ## To test
 
-### With Node
+While editing:
 
 ```bash
-bun install -g serve
-serve -s build
+bun run dev
 ```
 
-### With Bun
+To open the production folder:
 
 ```bash
-bunx serve -s build
+bun run build
+bun run preview
 ```
 
-Then open `http://server_ip:3000`.
+Then open `http://localhost:3000`.
 
 ## To deploy on production with Nginx
-
-Follow instructions on https://create-react-app.dev/docs/deployment/
 
 ```bash
 bun run build
